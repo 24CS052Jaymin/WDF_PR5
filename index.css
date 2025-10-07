@@ -1,0 +1,35 @@
+#student-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.student-card {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 8px;
+    width: 100%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.student-card h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.student-card h3 {
+    font-size: 18px;
+    margin: 4px 0;
+}
+.student-card p {
+    font-size: 16px;
+    margin: 4px 0;
+}
+.student-card p span {
+    font-weight: bold;
+}
+.student-card p a {
+    color: #007bff;
+    text-decoration: none;
+}
